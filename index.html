@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 <!-- links -->
   <link rel="stylesheet" href="styles/style.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Calculator app</title>
@@ -18,38 +23,51 @@
 <body>
 <div class="wrapper">
   <div class="container">
-    <div class="top-section">
-      <div class="logo">calc</div>
-      <div class="theme"></div>
+    <div class="top-section text-color-light">
+      <div class="logo text-size-400">
+        <p>calc</p>
+      </div>
+      <div class="theme text-size-100">
+        <p>THEME</p>
+        <div class="theme-button">
+          <div class="theme1"></div>
+          <div class="theme2"></div>
+          <div class="theme3"></div>
+        </div>
+      </div>
     </div>
     <div class="box">  
-      <div class="screen"></div>
+      <div class="screen border-smooth text-color-light">
+        <h1 class="digit">567,31</h1>
+      </div>
     </div>
-    <div class="keypad">
-      <div class="key"><p class="item">7</p></div>
-      <div class="key"><p class="item">8</p></div>
-      <div class="key"><p class="item">9</p></div>
-      <div class="key"><p class="item">DEL</p></div>
-      <div class="key"><p class="item">4</p></div>
-      <div class="key"><p class="item">5</p></div>
-      <div class="key"><p class="item">6</p></div>
-      <div class="key"><p class="item">+</p></div>
-      <div class="key"><p class="item">1</p></div>
-      <div class="key"><p class="item">2</p></div>
-      <div class="key"><p class="item">3</p></div>
-      <div class="key"><p class="item">-</p></div>
-      <div class="key"><p class="item">.</p></div>
-      <div class="key"><p class="item">0</p></div>
-      <div class="key"><p class="item">/</p></div>
-      <div class="key"><p class="item">x</p></div>
-      <div class="key reset"><p class="item">RESET</p></div>
-      <div class="key equals"><p class="item">=</p></div>
+    <div class="keypad border-smooth">
+      <div class="key border-smooth text-color-dark key-shadow text-size-300"><p class="item">7</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">8</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">9</p></div>
+      <div class="key border-smooth text-color-light delete"><p class="item">DEL</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">4</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">5</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">6</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">+</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">1</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">2</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">3</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">-</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">.</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">0</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">/</p></div>
+      <div class="key border-smooth text-color-dark key-shadow"><p class="item text-size-300">x</p></div>
+      <div class="key border-smooth text-color-light reset"><p class="item">RESET</p></div>
+      <div class="key border-smooth text-color-light equals"><p class="item">=</p></div>
     </div>
  
 </div>
-<div class="attribution">
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-  Coded by <a href="#">Your Name Here</a>.
+<div class="attribution text-color-light">
+  <p class="text-size-100">
+    Challenge by <a class="hypertext" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="hypertext" href="#">Noel</a>.
+  </p>
 </div>
 </div>
 </body>
