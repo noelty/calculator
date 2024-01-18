@@ -136,6 +136,7 @@ so that the div is visible */
   background-color: hsl(30, 25%, 89%);
   display: grid;
   /* box-shadow: 5px red; */
+  user-select: none;
 }
 
 .item {
